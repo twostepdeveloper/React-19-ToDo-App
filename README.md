@@ -1,12 +1,65 @@
-# React + Vite
+# 📝 React 19 Todo App (Vite + Vanilla JS)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive Todo application built using **Vite** and
+**React 19 (Vanilla JS setup)**.\
+This project demonstrates modern React development with hooks like
+**useState** and **useEffect**.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-   ➕ Add new todos\
+-   ✏️ Edit existing todos\
+-   ❌ Delete todos\
+-   💾 Persist todos using **localStorage** (`useEffect`)\
+-   ⚡ Fast development build with **Vite**\
+-   📱 Responsive UI with Bootstrap
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-   [Vite](https://vitejs.dev/) (for fast bundling & dev server)
+-   React **v19**
+-   React Hooks: `useState`, `useEffect`
+-   Bootstrap (for styling)
+
+## 📂 Project Structure
+
+    src/
+     ├── App.jsx       # Main component (handles state and events)
+     ├── AddTodo.jsx   # Component for adding/editing todos
+     ├── ToDoList.jsx  # Component for listing todos
+     ├── main.jsx      # Vite entry point
+     └── index.html    # Root HTML file
+
+## ▶️ How to Run Locally
+
+1.  Clone the repository
+
+    ``` bash
+    git clone https://github.com/your-username/todo-app.git
+    cd todo-app
+    ```
+
+2.  Install dependencies
+
+    ``` bash
+    npm install
+    ```
+
+3.  Start the dev server
+
+    ``` bash
+    npm run dev
+    ```
+
+4.  Open in browser
+
+        http://localhost:5173
+
+## 📸 Screenshot
+
+<img width="1303" height="757" alt="image" src="https://github.com/user-attachments/assets/a348ffb8-0492-47b0-9a0f-fc675fd74a40" />
+
+
+------------------------------------------------------------------------
+
+✨ Made with ❤️ using **Vite + React 19 (Vanilla JS setup)**
